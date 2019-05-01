@@ -54,3 +54,8 @@ body {
     float: none;
   }
 }
+
+button {
+  /* You Can Name it what you want*/
+  margin-right: 10px;
+}
