@@ -59,3 +59,135 @@ button {
   /* You Can Name it what you want*/
   margin-right: 10px;
 }
+
+prod-ser-pricing {
+  margin: 0 -15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+  background: #fff;
+  text-align: center;
+  position: relative;
+  transition: all 0.4s ease 0s;
+}
+.prod-ser-pricing:hover {
+  background: #f5f4f2;
+}
+.prod-ser-pricing .prod-ser-pricing-header {
+  background-color: #d1e9e9;
+  color: #989a8f;
+  padding: 15px 0 50px 0;
+  position: relative;
+  transition: all 0.5s ease 0s;
+}
+.prod-ser-pricing:hover .prod-ser-pricing-header {
+  background: #5bc0de;
+  color: #fff;
+}
+.prod-ser-pricing .heading {
+  font-size: 20px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.prod-ser-pricing .price-value {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  background: #d96c00;
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  top: 50px;
+  left: 38%;
+  transition: all 0.5s ease-in-out 0s;
+}
+.prod-ser-pricing:hover .price-value {
+  background: #d9534f;
+}
+.prod-ser-pricing .pricingContent ul {
+  padding: 0;
+  list-style: none;
+  margin-top: 50px;
+}
+.prod-ser-pricing .pricingContent ul li {
+  color: #989a8f;
+  padding: 5px 0;
+}
+.prod-ser-pricing .prod-ser-pricing-sign-up {
+  padding: 15px 0;
+}
+.prod-ser-pricing .btn-buy {
+  width: 50%;
+  border-radius: 5px;
+  width: auto;
+  border: 1px solid #989a8f;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 auto;
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+}
+.prod-ser-pricing .btn-more {
+  width: 50%;
+  border-radius: 5px;
+  width: auto;
+  border: 1px solid #989a8f;
+  padding: 10px 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  margin: 0 auto;
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+}
+.prod-ser-pricing:hover .btn-buy {
+  background: #8a211e;
+  color: #fff;
+  border: 1px solid #5a5d8a;
+}
+.prod-ser-pricing:hover .btn-more {
+  background: #1f7e9a;
+  color: #fff;
+  border: 1px solid #5a5d8a;
+}
+@media screen and (max-width: 990px) {
+  .prod-ser-pricing {
+    margin-bottom: 30px;
+  }
+
+  .prod-ser-pricing .price-value {
+    left: 40%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .prod-ser-pricing {
+    margin: 0 0 30px;
+  }
+
+  .prod-ser-pricing .price-value {
+    left: 45%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .prod-ser-pricing .price-value {
+    left: 42%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .prod-ser-pricing .price-value {
+    left: 38%;
+  }
+}
+
+.fullscreenDiv {
+  background-color: #e8e8e8;
+  width: 100%;
+  height: auto;
+  bottom: 0px;
+  top: 0px;
+  left: 0;
+  position: absolute;
+}

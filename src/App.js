@@ -2,14 +2,17 @@ import React from "react";
 import "./App.css";
 
 import { Header } from "./components/Header";
-import MainBody from "./components/MainBody";
 import { Footer } from "./components/Footer";
+
+// import MainBody from "./components/MainBody";
+// import Products from "./components/ProductsComponents/Products";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <MainBody />
+      {/* <MainBody /> */}
+      {/* <Products /> */}
       <Footer />
     </div>
   );

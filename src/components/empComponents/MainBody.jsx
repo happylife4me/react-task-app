@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "../App.css";
+import "../../App.css";
 
-import EmployeeRow from "./empComponents/EmployeeRow";
-import NewEmployee from "./empComponents/NewEmployee";
+import EmployeeRow from "./EmployeeRow";
+import NewEmployee from "./NewEmployee";
 
 export default class MainBody extends Component {
   constructor(props) {
