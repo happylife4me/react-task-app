@@ -3,8 +3,8 @@ import "../App.css";
 
 export const BodyDisplay = () => {
   return (
-    <div className="fullscreenDiv">
-      <h1>This is Home Page from spa</h1>
+    <div width="100%" height="100%">
+      <h1>Welcome to Jagadeesh react task project</h1>
     </div>
   );
 };

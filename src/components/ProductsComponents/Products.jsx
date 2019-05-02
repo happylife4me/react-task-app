@@ -93,7 +93,7 @@ export default class Products extends Component {
   render() {
     return (
       <div>
-        <section className="jumbotron text-center">
+        <section className="text-center">
           <div className="container">
             <h1 className="jumbotron-heading">E-COMMERCE CART</h1>
           </div>
@@ -105,7 +105,7 @@ export default class Products extends Component {
               <div className="table-responsive">
                 <table className="table table-striped">
                   <thead>
-                    <tr>
+                    <tr className="table-danger">
                       <th scope="col"> </th>
                       <th scope="col">Product</th>
                       <th scope="col">Available</th>

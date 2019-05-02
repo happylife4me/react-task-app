@@ -20,6 +20,13 @@ export const Header = () => {
           width="50"
         />
         React devlopment Company
+        {/* <div className="header-right">
+          <a className="active" href="#home">
+            Home
+          </a>
+          <a href="#contact">Shopping</a>
+          <a href="#about">About</a>
+        </div> */}
         <div className="header-right">
           <Link exact to="/">
             Home
@@ -28,21 +35,11 @@ export const Header = () => {
             Employee List
           </Link>
           <Link exact to="/shopping">
-            Shopping
-          </Link>
-          <Link exact to="/login">
-            Home
+            Shopping Cart
           </Link>
         </div>
-        {/* <div className="header-right">
-          <a className="active" href="#home">
-            Home
-          </a>
-          <a href="#contact">Shopping</a>
-          <a href="#about">About</a>
-        </div> */}
       </header>
-
+      <hr />
       <div className="container">
         <Switch>
           <Route path="/" exact component={BodyDisplay} />
@@ -50,6 +47,7 @@ export const Header = () => {
           <Route path="/shopping" exact component={Products} />
         </Switch>
       </div>
+      <hr />
     </div>
   );
 };

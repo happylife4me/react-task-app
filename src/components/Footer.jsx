@@ -4,7 +4,7 @@ import logo from "../logo.svg";
 
 export const Footer = () => {
   return (
-    <div className="header">
+    <div className="footer">
       <header className="App-header">
         <img
           src={logo}

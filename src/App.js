@@ -3,6 +3,7 @@ import "./App.css";
 
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
+import { BodyDisplay } from "./components/BodyDisplay";
 
 // import MainBody from "./components/MainBody";
 // import Products from "./components/ProductsComponents/Products";
