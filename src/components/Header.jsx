@@ -1,10 +1,10 @@
 import React from "react";
-import { Route, Link, Switch } from "react-router-dom";
+import { Route, Link, Switch} from "react-router-dom";
 
 import MainBody from "./empComponents/MainBody";
 import Products from "./ProductsComponents/Products";
 import { BodyDisplay } from "./BodyDisplay";
-import EleContext from "./EleComponents/EleContext";
+import EleContext from "./EleComponents/App";
 
 import "../App.css";
 import logo from "../logo.svg";
@@ -29,16 +29,16 @@ export const Header = () => {
           <a href="#about">About</a>
         </div> */}
         <div className="header-right">
-          <Link exact to="/">
+          <Link exact="true" to="/">
             Home
           </Link>
-          <Link exact to="/employee">
+          <Link exact="true" to="/employee">
             Employee List
           </Link>
-          <Link exact to="/shopping1">
+          <Link exact="true" to="/shopping1">
             Shopping Cart 1
           </Link>
-          <Link exact to="/shopping2">
+          <Link exact="true" to="/shopping2">
             Shopping Cart 2
           </Link>
         </div>
